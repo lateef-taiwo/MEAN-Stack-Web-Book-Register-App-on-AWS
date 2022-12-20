@@ -33,3 +33,7 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
     `sudo apt install -y nodejs`
 
     ![node](./images/nodejs.png)
+
+## Step 2: Install MongoDB
+MongoDB stores data in adaptable documents that resemble JSON.
+A database's fields can change from one document to another, and the data structure itself can change over time. 
