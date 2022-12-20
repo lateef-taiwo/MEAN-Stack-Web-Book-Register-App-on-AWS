@@ -141,4 +141,12 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
 
 ![body parser](./images/body-parser.png)
 
+* Create a folder named ‘Books’ and change directory to that folder
 
+`mkdir Books && cd Books`
+
+* In the Books directory, Initialize npm project
+
+    `npm init`
+
+    ![Books](./images/Books.png)
