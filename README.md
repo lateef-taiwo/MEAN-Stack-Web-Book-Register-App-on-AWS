@@ -80,3 +80,24 @@ A database's fields can change from one document to another, and the data struct
     ![mongo](./images/mongo%20status.png)
 
     You may get an error that the service status is failed as shown above.
+
+    * then use the command below to check the logs for the error
+
+         `journalctl -u mongod`
+
+         ![journal](./images/journal.png)
+
+    * Run the following commands to ensure that the service account mongo has exclusive permission to /var/lib/mongodb 
+
+            sudo chown -R mongodb:mongodb /var/lib/mongodb
+            sudo chown -R mongodb:mongodb /var/log/mongodb
+            sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+
+         ![mongodb](./images/mongo%20chown.png)
+
+    * then start the mongodb service again and check the status.
+
+    ![mongo](./images/mongo%20start.png)
+
+
+
