@@ -150,3 +150,20 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
     `npm init`
 
     ![Books](./images/Books.png)
+
+* Add a file to it named server.js
+
+`vi server.js`
+
+* Copy and paste the web server code below into the server.js file.
+
+        var express = require('express');
+        var bodyParser = require('body-parser');
+        var app = express();
+        app.use(express.static(__dirname + '/public'));
+        app.use(bodyParser.json());
+        require('./apps/routes')(app);
+        app.set('port', 3300);
+        app.listen(app.get('port'), function() {
+        console.log('Server up: http://localhost:' + app.get('port'));
+            });
