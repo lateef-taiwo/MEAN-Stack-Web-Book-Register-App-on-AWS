@@ -22,4 +22,13 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
  
         curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
-Install NodeJS
+    ![certificate](./images/certificate.png)
+
+    ![certificate](./images/Certificates.png)
+
+
+* Install NodeJS
+    `sudo apt install -y nodejs`
+
+    ![node](./images/nodejs.png)
+    
