@@ -133,3 +133,12 @@ A database's fields can change from one document to another, and the data struct
 
     ![npm](./images/npm.png)
 
+* Install body-parser package
+
+We need ‘body-parser’ package to help us process JSON files passed in requests to the server.
+
+`sudo npm install body-parser`
+
+![body parser](./images/body-parser.png)
+
+
