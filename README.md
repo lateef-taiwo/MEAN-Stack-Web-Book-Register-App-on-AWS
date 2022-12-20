@@ -3,6 +3,15 @@ This Repository explains the steps involved in creating and deploying a simple W
 
 ![MEAN](./images/mean.jpeg)
 
+-----
+______
+
+Below is the Architectural diagram of what our deployment will look like.
+
+![Mean stack](./images/MEAN%20Architectural%20diagram.png)
+
+_____
+----
 ### Step 0: Create a Virtual Server on AWS
 <!-- UL -->
 * Login to the AWS console
