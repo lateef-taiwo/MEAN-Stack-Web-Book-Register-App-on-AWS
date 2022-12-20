@@ -46,17 +46,27 @@ A database's fields can change from one document to another, and the data struct
 
     `sudo apt install -y mongodb`
 
-    * If the above throws an error, try running 
+    * If the above throws an error, try running the below commnad with "jammy" replacing "trusty" depending on your version of ubuntu.
 
-            echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+            echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
     
+    ![jammy](./images/jammy.png)
+   
     * then install gnupg
 
     `sudo apt-get install -y gnupg`
 
     ![gnupg](./images/gnupg.png)
     
+    * then update the server again
 
+    `sudo apt-get update`
+
+    ![update](./images/update2.png)
+
+    * Now try installing mongodb 
+
+    `sudo apt-get install -y mongodb-org`
     ![mongo](./images/mongo.png)
     ![mongo](./images/mongoo.png)
 
@@ -67,4 +77,6 @@ A database's fields can change from one document to another, and the data struct
 * Verify that the service is up and running
 
     `sudo systemctl status mongod`
-    ![mongo](./images/mongo%20start.png)
+    ![mongo](./images/mongo%20status.png)
+
+    You may get an error that the service status is failed as shown above.
