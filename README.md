@@ -167,3 +167,5 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
         app.listen(app.get('port'), function() {
         console.log('Server up: http://localhost:' + app.get('port'));
             });
+
+## Step 3: Install Express and set up routes to the server
