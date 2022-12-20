@@ -127,5 +127,9 @@ A database's fields can change from one document to another, and the data struct
 
     ![mongo](./images/mongo%20start.png)
 
+* Install npm – Node package manager.
 
+    `sudo apt install -y npm`
+
+    ![npm](./images/npm.png)
 
