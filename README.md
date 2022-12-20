@@ -1,6 +1,8 @@
 # MEAN-Stack-Web-Book-Register-App-on-AWS
 This Repository explains the steps involved in creating and deploying a simple Web Book Register App on MEAN stack in AWS
 
+![MEAN](./images/mean.jpeg)
+
 ## Step 1: Install NodeJs
 Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js is used in this tutorial to set up the Express routes and AngularJS controllers.
 
@@ -31,4 +33,3 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
     `sudo apt install -y nodejs`
 
     ![node](./images/nodejs.png)
-    
