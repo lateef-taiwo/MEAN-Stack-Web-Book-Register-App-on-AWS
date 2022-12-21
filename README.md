@@ -171,3 +171,24 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
 ## Step 3: Install Express and set up routes to the server
 The Express web application framework for Node.js offers features for both online and mobile applications. Express will be used to transfer book data to and from our MongoDB database.
 We'll also make use of the Mongoose package, which offers a simple, schema-based way to model the data for your application. We will create a database schema using Mongoose to hold the data from our book register.
+
+`sudo npm install express mongoose`
+
+![Mongoose](./images//mongoose.png)
+
+* In ‘Books’ directory, create a folder named apps and cd into it.
+
+    `mkdir apps && cd apps`
+    
+    ![apps](./images/apps.png)
+
+* Create a file named routes.js
+
+    `vi routes.js`
+
+    ![routes](./images/routes.png)
+
+
+
+
+
