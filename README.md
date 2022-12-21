@@ -386,3 +386,12 @@ With the help of AngularJS, you can build dynamic views for your web application
 * Start the server by running this command:
 
     `node server.js`
+
+* The server is now up and running, we can connect it via port 3300. You can launch a separate Putty or SSH console to test what the curl command returns locally.
+
+`curl -s http://localhost:3300`
+
+* It shall return an HTML page, it is hardly readable in the CLI, but we can also try and access it from the Internet.
+For this – you need to open TCP port 3300 in your AWS Web Console for your EC2 Instance.
+
+![Security groups](./images/Sec%20groups.png)
