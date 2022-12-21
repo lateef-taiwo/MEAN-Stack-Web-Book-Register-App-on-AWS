@@ -17,10 +17,11 @@ _____
 * Login to the AWS console
 * Search for EC2 (Elastic Compute Cloud) 
 * Select your preferred region (the closest to you) and launch a new EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS (HVM)
-* Type a name e.g My_Lamp_Server
- Click create a new key pair, use any name of your choice as the name for the pem file and select .pem.
-    * Linux/Mac users, choose .pem for use with openssh. This allows you to connect to your server using open ssh clients.
-    * For windows users choose .ppk for use with putty. Putty is a software that lets you connect remotely to servers
+* Type a name e.g Mean_Stack_Server.
+
+* Click create a new key pair, use any name of your choice as the name for the pem file and select .pem.
+* Linux/Mac users, choose .pem for use with openssh. This allows you to connect to your server using ssh.
+* For windows users choose .ppk for use with putty. Putty is a software that lets you connect remotely to servers
 * Save your private key (.pem file) securely and do not share it with anyone! If you lose it, you will not be able to connect to your server ever again! 
 
 ![EC2 instance image ](./images/EC2.png) 
@@ -430,4 +431,7 @@ For this – you need to open TCP port 3300 in your AWS Web Console for your EC2
     `http://(public-ip):3300`
 
 ![APP](./images/Apps.png)
+
+_______
+-------
 ### !!! Congratulations you have succesfully created a Web book register app using the MEAN (Mongodb, Express, Angular and Node) stack tools
