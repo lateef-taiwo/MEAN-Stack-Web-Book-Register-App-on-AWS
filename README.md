@@ -100,6 +100,7 @@ A database's fields can change from one document to another, and the data struct
     * Now try installing mongodb 
 
     `sudo apt-get install -y mongodb-org`
+    
     ![mongo](./images/mongo.png)
     ![mongo](./images/mongoo.png)
 
