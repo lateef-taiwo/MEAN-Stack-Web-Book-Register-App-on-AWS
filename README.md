@@ -417,7 +417,17 @@ For this – you need to open TCP port 3300 in your AWS Web Console for your EC2
 
 * Change directory to 'Books' folder
 
-* Now run `node server.js`
+    `cd ..`
+
+* Now run the server 
+
+    `node server.js`
+
+    ![Books](./images/Bo-oks.png)
+
+* View the app on your web browser 
+
+    `http://(public-ip):3300`
 
 ![APP](./images/Apps.png)
-### !!! Congratulations you have succesfully created a Web book register app using the MEAN (Mongodb, Express, Angular and Node)stack tools
+### !!! Congratulations you have succesfully created a Web book register app using the MEAN (Mongodb, Express, Angular and Node) stack tools
