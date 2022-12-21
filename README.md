@@ -320,3 +320,10 @@ With the help of AngularJS, you can build dynamic views for your web application
         };
         });
 
+* In the public folder, create a file named index.html;
+
+  `vi index.html`
+
+    
+
+  * Copy and paste the code below into index.html file.
