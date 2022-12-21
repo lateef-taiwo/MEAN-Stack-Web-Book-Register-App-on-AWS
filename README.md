@@ -395,3 +395,8 @@ With the help of AngularJS, you can build dynamic views for your web application
 For this – you need to open TCP port 3300 in your AWS Web Console for your EC2 Instance.
 
 ![Security groups](./images/Sec%20groups.png)
+
+* You can view the app on your web browser 
+    `http://(public-ip):3300`
+
+    ![App](./images/App.png)
