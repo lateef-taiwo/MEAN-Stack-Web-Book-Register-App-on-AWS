@@ -31,6 +31,8 @@ _____
 * Connect to the instance by running
     > `ssh -i <private-key-name>. pem ubuntu@<Public-IP-address>`
     
+------
+______
 ## Step 1: Install NodeJs
 Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js is used in this tutorial to set up the Express routes and AngularJS controllers.
 
@@ -62,6 +64,8 @@ Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.j
 
     ![node](./images/nodejs.png)
 
+-------
+_______
 ## Step 2: Install MongoDB
 MongoDB stores data in adaptable documents that resemble JSON.
 A database's fields can change from one document to another, and the data structure itself can change over time.
@@ -168,6 +172,8 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
         console.log('Server up: http://localhost:' + app.get('port'));
             });
 
+---------
+_________
 ## Step 3: Install Express and set up routes to the server
 The Express web application framework for Node.js offers features for both online and mobile applications. Express will be used to transfer book data to and from our MongoDB database.
 We'll also make use of the Mongoose package, which offers a simple, schema-based way to model the data for your application. We will create a database schema using Mongoose to hold the data from our book register.
@@ -238,6 +244,7 @@ We'll also make use of the Mongoose package, which offers a simple, schema-based
 
         `vi book.js`
 
+
         Copy and paste the code below into ‘book.js’
 
             var mongoose = require('mongoose');
@@ -254,10 +261,7 @@ We'll also make use of the Mongoose package, which offers a simple, schema-based
             var Book = mongoose.model('Book', bookSchema);
             module.exports = mongoose.model('Book', bookSchema);
 
-
-
-
-
-
-
+----------
+__________
+## Step 4 – Access the routes with AngularJS
 
