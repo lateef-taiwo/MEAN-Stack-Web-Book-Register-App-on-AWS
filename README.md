@@ -35,7 +35,7 @@ _____
 ------
 ______
 ## Step 1: Install NodeJs
-Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js is used in this tutorial to set up the Express routes and AngularJS controllers.
+Node.js is an open-source server environment. It is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js will be used to set up the Express routes and AngularJS controllers.
 
 * Update EC2 instance, that is Ubuntu
 
