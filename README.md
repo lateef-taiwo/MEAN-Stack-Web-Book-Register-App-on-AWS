@@ -379,3 +379,10 @@ With the help of AngularJS, you can build dynamic views for your web application
         </body>
         </html>
 
+* Change the directory back to Books directory
+
+    `cd ..`
+
+* Start the server by running this command:
+
+    `node server.js`
