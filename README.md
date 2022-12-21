@@ -400,3 +400,20 @@ For this – you need to open TCP port 3300 in your AWS Web Console for your EC2
     `http://(public-ip):3300`
 
     ![App](./images/App.png)
+
+
+* You can make the app look more nice by adding a styles.css file in the public directory and inserting some css code similar to the one below.
+
+![CSS](./images/css.png)
+
+     body {
+     background-color: powderblue;
+     }
+     h1 {
+     color: blue;
+     }
+     
+* Also you can add a header in the index.html file to denote what your app is 
+
+![APP](./images/Apps.png)
+### !!! Congratulations you have succesfully created a Web book register app using the MEAN (Mongodb, Express, Angular and Node)stack tools
