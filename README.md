@@ -264,4 +264,59 @@ We'll also make use of the Mongoose package, which offers a simple, schema-based
 ----------
 __________
 ## Step 4 – Access the routes with AngularJS
+With the help of AngularJS, you can build dynamic views for your web applications.
+
+* Change the directory back to ‘Books’
+
+    `cd ../..`
+
+* Create a folder named public and cd into it
+
+    ![public](./images/script.png)
+
+  `mkdir public && cd public`
+* Add a file named script.js
+    `vi script.js`
+
+    ![script](./images/scrip.png)
+
+* Copy and paste the Code below (controller configuration defined) into the script.js file.
+
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope, $http) {
+        $http( {
+            method: 'GET',
+            url: '/book'
+        }).then(function successCallback(response) {
+            $scope.books = response.data;
+        }, function errorCallback(response) {
+            console.log('Error: ' + response);
+        });
+        $scope.del_book = function(book) {
+            $http( {
+            method: 'DELETE',
+            url: '/book/:isbn',
+            params: {'isbn': book.isbn}
+            }).then(function successCallback(response) {
+            console.log(response);
+            }, function errorCallback(response) {
+            console.log('Error: ' + response);
+            });
+        };
+        $scope.add_book = function() {
+            var body = '{ "name": "' + $scope.Name + 
+            '", "isbn": "' + $scope.Isbn +
+            '", "author": "' + $scope.Author + 
+            '", "pages": "' + $scope.Pages + '" }';
+            $http({
+            method: 'POST',
+            url: '/book',
+            data: body
+            }).then(function successCallback(response) {
+            console.log(response);
+            }, function errorCallback(response) {
+            console.log('Error: ' + response);
+            });
+        };
+        });
 
