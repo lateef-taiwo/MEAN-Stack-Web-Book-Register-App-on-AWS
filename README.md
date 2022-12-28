@@ -121,7 +121,7 @@ A database's fields can change from one document to another, and the data struct
 
          ![journal](./images/journal.png)
 
-    * Run the following commands to ensure that the service account mongo has exclusive permission to /var/lib/mongodb 
+    * Run the following commands to ensure that the service account mongodb has exclusive permission to /var/lib/mongodb 
 
             sudo chown -R mongodb:mongodb /var/lib/mongodb
             sudo chown -R mongodb:mongodb /var/log/mongodb
@@ -409,10 +409,10 @@ For this – you need to open TCP port 3300 in your AWS Web Console for your EC2
 ![CSS](./images/css.png)
 
      body {
-     background-color: powderblue;
+     background-color: #F82C84;
      }
      h1 {
-     color: blue;
+     color: powderblue;
      }
      
 * Also you can add a header in the index.html file to denote what your app is.
