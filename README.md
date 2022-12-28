@@ -159,7 +159,7 @@ We need ‘body-parser’ package to help us process JSON files passed in reques
 
 * Add a file to it named server.js
 
-`vi server.js`
+    `vi server.js`
 
 * Copy and paste the web server code below into the server.js file.
 
@@ -391,7 +391,7 @@ With the help of AngularJS, you can build dynamic views for your web application
 
 * The server is now up and running, we can connect it via port 3300. You can launch a separate Putty or SSH console to test what the curl command returns locally.
 
-`curl -s http://localhost:3300`
+    `curl -s http://localhost:3300`
 
 * It shall return an HTML page, it is hardly readable in the CLI, but we can also try and access it from the Internet.
 For this – you need to open TCP port 3300 in your AWS Web Console for your EC2 Instance.
